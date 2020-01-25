@@ -1,0 +1,62 @@
+.main {
+    width: 275px;
+    height: 345px;
+    background-color: #5a5c67;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.screen {
+    width: 250px;
+    height: 50px;
+    background-color: #c1d790;
+    margin: 20px 0 10px 0;
+    border-radius: 10px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.numeral {
+    width: 55px;
+    height: 55px;
+    background-color: #3e414a;
+    margin: 5px;
+    font-size: 48px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Consolas, serif;
+}
+
+.operation {
+    width: 55px;
+    height: 55px;
+    background-color: #bcc1c7;
+    margin: 5px;
+    font-size: 48px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Consolas, serif;
+}
+
