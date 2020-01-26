@@ -1,17 +1,18 @@
 let check;
+let stringArray = document.getElementById('src');
 
-function insert(num) {
+let insert = (num) => {
     if (check === 1) {
-        document.getElementById('src').value = '';
+        stringArray.value = '';
         check = 0;
     }
-    document.getElementById('src').value = document.getElementById('src').value + num;
-}
+    stringArray.value = stringArray.value + num;
+};
 
-function equal() {
+let equal = () => {
     let result = document.getElementById('src').value;
     if (result) {
-        document.getElementById('src').value = eval(result);
+        stringArray.value = eval(result);
         check = 1;
     }
-}
+};
